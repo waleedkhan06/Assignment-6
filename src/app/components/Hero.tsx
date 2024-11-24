@@ -38,7 +38,7 @@ const HeroSection = () => {
           justify-center items-center">
             <img 
               src="/image1.png" 
-              alt="Student with notebook" 
+              alt="image" 
               className="w-full h-auto object-contain"
             />
           </div>
