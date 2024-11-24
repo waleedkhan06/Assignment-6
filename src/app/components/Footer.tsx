@@ -1,12 +1,14 @@
+"use client"
 import React from 'react';
+import Image from "next/image";
 
 const Footer = () => {
   return (
     <footer className="w-full bg-white pt-16 pb-8">
       <div className="container mx-auto px-4">
-        {/* Newsletter Section */}
+      
         <div className="flex flex-col lg:flex-row justify-between items-center mb-16">
-          {/* Left: Newsletter Text */}
+        
           <div className="text-center lg:text-left lg:w-1/2 mb-8 lg:mb-0">
             <h3 className="text-black text-xl font-bold font-roboto">
               Subscribe to our newsletter
@@ -16,9 +18,9 @@ const Footer = () => {
             </p>
           </div>
 
-          {/* Right: Input, Button, and Privacy Text */}
+       
           <div className="lg:w-1/2 flex flex-col items-center lg:items-end">
-            {/* Input and Button */}
+           
             <div className="flex flex-col sm:flex-row gap-2 w-full sm:w-auto mb-4">
               <input
                 type="email"
@@ -29,7 +31,7 @@ const Footer = () => {
                 Subscribe
               </button>
             </div>
-            {/* Privacy Policy Paragraph */}
+         
             <p className="text-sm text-black text-center lg:text-left 
                  xl:text-right font-roboto">
                  By subscribing, you agree to our&nbsp;
@@ -40,16 +42,16 @@ const Footer = () => {
           </div>
         </div>
 
-        {/* Mid Section */}
+       
         <div className="flex flex-col lg:flex-row justify-between items-center lg:items-start mb-16">
-          {/* Logo - Left */}
+        
           <div className="mb-8 lg:mb-0">
             <img src="/Ddsgnr Library.png" alt="Ddsgnr" className="h-8" />
           </div>
 
-          {/* Navigation Links */}
+         
           <div className="grid grid-cols-1 md:grid-cols-3 gap-y-8 lg:gap-y-12 lg:gap-x-16 text-center lg:text-left">
-            {/* Column 1: Courses */}
+    
             <div className="space-y-6">
               <h4 className="font-bold text-black text-lg mb-4 font-roboto">Courses</h4>
               <ul className="space-y-2">
@@ -61,7 +63,7 @@ const Footer = () => {
               </ul>
             </div>
 
-            {/* Column 2: Resources */}
+           
             <div className="space-y-6">
               <h4 className="font-bold text-black text-lg mb-4 font-roboto">Resources</h4>
               <ul className="space-y-2">
@@ -73,7 +75,7 @@ const Footer = () => {
               </ul>
             </div>
 
-            {/* Column 3: About Us */}
+            
             <div className="space-y-6">
               <h4 className="font-bold text-black text-lg mb-4 font-roboto">About Us</h4>
               <ul className="space-y-2">
@@ -91,14 +93,14 @@ const Footer = () => {
 
         {/* Bottom Section */}
         <div className="flex flex-col lg:flex-row justify-between items-center lg:items-center">
-          {/* Left Section */}
+        
           <div className="flex flex-col lg:flex-row lg:items-center lg:justify-start w-full lg:w-auto">
-            {/* All rights reserved text */}
+          
             <p className="text-center lg:text-left text-sm text-black font-roboto mb-2 lg:mb-0">
               © 2023 Ddsgnr. All rights reserved.
             </p>
 
-            {/* Links with spacing */}
+      
             <div className="flex justify-center lg:ml-4 text-sm text-black font-roboto space-x-4 mt-2 lg:mt-0">
               <a href="#" className="hover:underline">Privacy Policy</a>
               <a href="#" className="hover:underline">Terms of Service</a>
@@ -106,7 +108,7 @@ const Footer = () => {
             </div>
           </div>
 
-          {/* Social Media Icons */}
+          
           <div className="flex justify-center lg:justify-end space-x-4 mt-4 lg:mt-0">
             <a href="#" className="text-black hover:text-gray-800">
               <img src="/Facebook.png" alt="Facebook" className="h-5 w-5" />
