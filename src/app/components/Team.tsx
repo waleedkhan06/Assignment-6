@@ -55,7 +55,7 @@ export default function TeamSection() {
             <p className="text-sm text-black">{member.role}</p>
             <div className="flex justify-center space-x-3">
               <a href="#" target="_blank" rel="noopener noreferrer">
-                <img src="/linkedin.png" alt="linkedin" className="w-6 h-6" />
+                <img src="/Linkedin.png" alt="linkedin" className="w-6 h-6" />
               </a>
               <a href="#" target="_blank" rel="noopener noreferrer">
                 <img src="/Twitter.png" alt="Twitter" className="w-6 h-6" />

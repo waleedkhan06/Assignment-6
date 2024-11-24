@@ -17,10 +17,10 @@ export default function Header() {
 
          
           <div className="flex space-x-4">
-            <img src="/facebook.png" alt="Facebook" className="w-5 h-5" />
-            <img src="/instagram.png" alt="Instagram" className="w-5 h-5" />
+            <img src="/Facebook.png" alt="Facebook" className="w-5 h-5" />
+            <img src="/Instagram.png" alt="Instagram" className="w-5 h-5" />
             <img src="/Twitter.png" alt="Twitter" className="w-5 h-5" />
-            <img src="/linkedin.png" alt="LinkedIn" className="w-5 h-5" />
+            <img src="/Linkedin.png" alt="LinkedIn" className="w-5 h-5" />
           </div>
         </div>
       </div>
