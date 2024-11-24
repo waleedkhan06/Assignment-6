@@ -37,9 +37,9 @@ const HeroSection = () => {
           <div className="bg-[#F5F5F0] rounded-lg w-full h-full flex 
           justify-center items-center">
             <img 
-              src="/image1.png" 
+               src="/heroimage.png" 
               alt="image" 
-              className="w-full h-auto object-contain"
+              className="object-cover"
             />
           </div>
         </div>
